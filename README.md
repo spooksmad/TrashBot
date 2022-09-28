@@ -12,7 +12,11 @@ TOKEN = "INSERT-TOKEN-HERE"
 You should also consider editing the script to use your own sentence dictionary. you can do this by making the following edits:
 
 
-trashboat_quotes = open("trashboat_msgs.txt", encoding="utf8").read() -> trashboat_quotes = open("YOUR_TXT_FILE_GOES_HERE", encoding="utf8").read()
+trashboat_quotes = open("trashboat_msgs.txt", encoding="utf8").read()
+
+should become:
+
+trashboat_quotes = open("YOUR_TXT_FILE_GOES_HERE", encoding="utf8").read()
 
 
 I would recommend using a list with more than 400 sentences for basic functionality.
